@@ -26,9 +26,9 @@ var word1 = ["TALL", "SHORT", "STOUT", "ROUND", "RECTANGULAR", "PYRAMIDAL", "HEX
 
 var word2 = ["TREE", "SHRUB", "POTTED PLANT", "BUSH", "CACTUS"];
 
-var word3 = ["TWISTING", "BLOSSOMING", "SPROUTING", "CLIMBING", "BLOOMING", "GROWING", "RIPENING", "TAKING ROOT", "WITHERING", "RUNNING", "CONTORTING", "CURVING", ];
+var word3 = ["TWISTING", "BLOSSOMING", "SPROUTING", "CLIMBING", "BLOOMING", "GROWING", "RIPENING", "TAKING ROOT", "WITHERING", "CONTORTING", "CURVING", ];
 
-var word4 = ["GENTLY", "TENDERLY", "ANGRILY", "BEAUTIFULLY", "FIERCELY", "FURIOUSLY", "SERENELY", "FORCEFULLY", "FAST", "SLOW", "ELEGANTLY"];
+var word4 = ["GENTLY", "TENDERLY", "ANGRILY", "BEAUTIFULLY", "FIERCELY", "FURIOUSLY", "SERENELY", "FORCEFULLY", "FAST", "SLOW", "ELEGANTLY", "WILDLY"];
 
 var word5 = ["LEAVES", "BRANCHES", "BUDS", "FRUITS", "TENDRILS", "BERRIES", "FLOWERS", "FRONDS", "VEINS", "VINES", "EYES", "ROOTS", "PETALS", "STALKS", "STEMS"];
 
@@ -88,8 +88,8 @@ fontindex = round(random(0, 7));
 
   index1 = round(random(0,11))
   index2 = round(random(0,4))
-  index3 = round(random(0,11))
-  index4 = round(random(0,10))
+  index3 = round(random(0,10))
+  index4 = round(random(0,11))
   index5 = round(random(0,14))
   index6 = round(random(0,12))
   index7 = round(random(0,11))
@@ -128,6 +128,7 @@ function draw() {
   
   textSize(40);
   textAlign(CENTER, CENTER);
+  textLeading(45);
   
   textWrap(WORD);
   
@@ -193,8 +194,8 @@ if(mouseX>width/2-170 && mouseX<width/2-150 && mouseY> windowHeight/4-10 && mous
   fontindex = round(random(0, 7));
   index1 = round(random(0,11));
   index2 = round(random(0,4));
-  index3 = round(random(0,11));
-  index4 = round(random(0,10));
+  index3 = round(random(0,10));
+  index4 = round(random(0,11));
   index5 = round(random(0,14));
   index6 = round(random(0,12));
   index7 = round(random(0,11));
@@ -211,8 +212,8 @@ if(mouseX>width/2-170 && mouseX<width/2-150 && mouseY> windowHeight/4-10 && mous
   fontindex = round(random(0, 7));
   index1 = round(random(0,11));
   index2 = round(random(0,4));
-  index3 = round(random(0,11));
-  index4 = round(random(0,10));
+  index3 = round(random(0,10));
+  index4 = round(random(0,11));
   index5 = round(random(0,14));
   index6 = round(random(0,12));
   index7 = round(random(0,11));
