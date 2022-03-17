@@ -38,14 +38,14 @@ var word7 = ["DARKENING", "SOFTENING", "LIGHTENING", "DEEPENING", "TRANSLUCENT",
 
 var word8 = ["SKY", "FOG", "AIR", "ETHER", "AURA", "STILLNESS", "SILENCE", "SUNRISE", "SUNSET", "DUSK", "NIGHT", "EVENING LIGHT", "MORNING LIGHT", "GLOOM",];
 
-var word9 = ["FILLS YOU WITH", "MAKES YOU REMEMBER DAYS OF", "MAKES YOU FEEL HEAVY WITH", "MAKES YOU FEEL LIGHT WITH", "STIRS", "AWAKENS", "IGNITES", "SPARKS", "ROUSES", "EXUDES", "EMITS", "RADIATES"];
+var word9 = ["FILLS YOU WITH", "MAKES YOU REMEMBER DAYS OF", "MAKES YOU FEEL HEAVY WITH", "MAKES YOU FEEL LIGHT WITH", "STIRS", "AWAKENS", "IGNITES", "SPARKS", "EXUDES", "EMITS", "RADIATES"];
 
 var word10 = ["HAPPINESS", "SORROW", "MELANCHOLY", "LONGING", "DELIGHT", "WONDER", "UNCERTAINTY", "UNEASE", "CALM", "ENCHANTMENT", "BLISS", "ANXIETY", "DISQUIET", "APPREHENSION", "TENSION"];
 
 
 var sentence = ["Two paths diverge.", "A fork in the road.", "Where should I go?", "A forking path.", "Left or right?", "Two choices ahead."]
 
-var against = ["AGAINST THE", "IN THE", "THROUGH THE", "WITHIN THE", "THROUGHOUT THE"]
+var against = ["AGAINST THE", "IN THE"]
 
 
 function preload() {
@@ -94,11 +94,11 @@ fontindex = round(random(0, 7));
   index6 = round(random(0,12))
   index7 = round(random(0,11))
   index8 = round(random(0,13))
-  index9 = round(random(0,11))
+  index9 = round(random(0,10))
   index10 = round(random(0,14))
   
 sindex = round(random(0,5))  
-aindex = round(random(0,4))  
+aindex = round(random(0,1))  
 }
 
 
@@ -199,10 +199,10 @@ if(mouseX>width/2-170 && mouseX<width/2-150 && mouseY> windowHeight/4-10 && mous
   index6 = round(random(0,12));
   index7 = round(random(0,11));
   index8 = round(random(0,13));
-  index9 = round(random(0,11));
+  index9 = round(random(0,10));
   index10 = round(random(0,14));
   
-  aindex = round(random(0,4))
+  aindex = round(random(0,1))
   sindex = round(random(0,5))
   h=random(200);
  h2=random(55,160);
@@ -217,10 +217,10 @@ if(mouseX>width/2-170 && mouseX<width/2-150 && mouseY> windowHeight/4-10 && mous
   index6 = round(random(0,12));
   index7 = round(random(0,11));
   index8 = round(random(0,13));
-  index9 = round(random(0,11));
+  index9 = round(random(0,10));
   index10 = round(random(0,14));
   
-  aindex = round(random(0,4))
+  aindex = round(random(0,1))
   sindex = round(random(0,5))
   h=random(200);
  h2=random(55,160);
