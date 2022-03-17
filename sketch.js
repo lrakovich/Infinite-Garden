@@ -49,7 +49,7 @@ var against = ["AGAINST THE", "IN THE", "THROUGH THE", "WITHIN THE", "THROUGHOUT
 
 
 function preload() {
-  sound = loadSound('assets/Birds Loop.mp3');	
+  sound = loadSound('assets/Birds Loop.mp3'); 
 }
 
 
@@ -207,7 +207,7 @@ if(mouseX>width/2-170 && mouseX<width/2-150 && mouseY> windowHeight/4-10 && mous
   h=random(200);
  h2=random(55,160);
 }
-  else if(mouseX<width/2+155 && mouseX>width/2+135 && mouseY> windowHeight/4-10 && mouseY<windowHeight/4+10){
+  else if(mouseX<width/2+1550 && mouseX>width/2+135 && mouseY> windowHeight/4-10 && mouseY<windowHeight/4+10){
   fontindex = round(random(0, 7));
   index1 = round(random(0,11));
   index2 = round(random(0,4));
